@@ -31,12 +31,12 @@ h2 {
 }
 
 .background {
-    transform: translateZ(-30px) scale(4.5);
+    transform: translateZ(-30px) scale(4.25);
     z-index: 0;
 }
 
 .foreground {
-    transform: translateZ(1px) scale(1.5) translateY(175%);
+    transform: translateZ(1px) scale(1.5) translateY(160%);
     /* margin-bottom: 0rem;
     padding-bottom: 0rem;
     margin-top: 0rem;
@@ -44,14 +44,6 @@ h2 {
     padding: 0rem;
     z-index: 1;
 }
-
-/* .upsideDown {
-    transform: translateY(100%) translateZ(-30px) scale(4);
-} */
-
-/* .foreground {
-    transform: translateZ(-10px) scale(2);
-} */
 
 .background, 
 .foreground {
@@ -63,8 +55,6 @@ h2 {
 
 .small {
     position: relative;
-    /* width: 100px;
-    height: 10px; */
     right: 130px;
     
     font-size: 2rem;
@@ -105,7 +95,7 @@ h2 {
     border-radius: 1rem;
     float: left;
     margin-right: 2rem;
-    margin-bottom: 2rem;
+    /* margin-bottom: 10rem; */
     /* position: relative;
     right: 10%; */
 }
@@ -117,6 +107,14 @@ h2 {
     font-weight: bold;
     margin-bottom: 0.5rem;
     
+}
+
+.department {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
 }
 
 .dateWorked {
@@ -131,6 +129,13 @@ h2 {
     font-size: 1rem;
     font-weight: lighter;
     color: gray;
+    line-height: 1.4rem;
+}
+
+.moreDetailsHeading {
+    font-size: 1rem;
+    font-weight: normal;
+    color:black;
     line-height: 1.4rem;
 }
 
