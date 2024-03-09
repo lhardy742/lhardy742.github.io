@@ -1,0 +1,177 @@
+body {
+    overflow-y: hidden;
+    margin: 0;
+}
+
+.parallaxWrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 10px;
+    padding-bottom: 0rem;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+h2 {
+    padding-bottom: 0%;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+.background {
+    transform: translateZ(-30px) scale(4.5);
+    z-index: 0;
+}
+
+.foreground {
+    transform: translateZ(1px) scale(1.5) translateY(175%);
+    /* margin-bottom: 0rem;
+    padding-bottom: 0rem;
+    margin-top: 0rem;
+    padding-top: 0rem; */
+    padding: 0rem;
+    z-index: 1;
+}
+
+/* .upsideDown {
+    transform: translateY(100%) translateZ(-30px) scale(4);
+} */
+
+/* .foreground {
+    transform: translateZ(-10px) scale(2);
+} */
+
+.background, 
+.foreground {
+    position: absolute;
+    height: 100%;
+    width: 100%;  
+    object-fit: cover; 
+}
+
+.small {
+    position: relative;
+    /* width: 100px;
+    height: 10px; */
+    right: 130px;
+    
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    transform: translate(100px);
+}
+
+.large {
+    font-size: 5rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    float: right;
+}
+    
+.darkSection {
+    font-size: 2rem;
+    padding: 2rem;
+    background-color: whitesmoke;
+    color: black;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.socialSection {
+    /* background-color: gray; */
+    position: relative;
+    left: 40%;
+    padding-top: 10;
+    padding-bottom: 0rem;
+    /* padding-left: 37%; */
+    /* padding-right: 25%; */
+}
+
+.demoImages {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    /* position: relative;
+    right: 10%; */
+}
+
+.name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    
+}
+
+.dateWorked {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color:grey;
+    margin-bottom: 0.5rem;
+}
+
+.moreDetails {
+    font-size: 1rem;
+    font-weight: lighter;
+    color: gray;
+    line-height: 1.4rem;
+}
+
+.row {
+    display: block;
+    margin-bottom: 3rem;
+}
+  
+.column {
+    display: block;
+}
+
+/* .linkedin {
+    position: absolute;
+    z-index: 1;
+    width: 5vw;
+    border-radius: 15%;
+    
+} */
+.linkedinImg {
+    position: relative;
+    z-index: 1;
+    width: 7rem;
+    /* left: 1px; */
+    float: left;
+    border-radius: 15%;
+    margin-right: 1rem;
+    
+}
+/* .github {
+    position: relative;
+    z-index: 1;
+    width: 5vw;
+    border-radius: 15%;
+    
+} */
+.githubImg {
+    position: relative;
+    width: 7rem;
+    z-index: 1;
+    border-radius: 15%;
+    
+}
+
